@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+</head>
+<body>
+<div data-role="tabs" id="tabs">
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#store" data-ajax="false">Store</a></li>
+      <li><a href="#cart" data-ajax="false">Cart</a></li>
+    </ul>
+    <div id="store">
+      <div data-role="main" class="ui-content">
+        <div class="item" data-role="collapsible">
+          <h4 class="title">Book One</h4>
+          <div class="ISBN">ISBN: 975-4-00-000000-T</div>
+          <div class="description"><b>Description: This is a dummy book.</b></div>
+          <div class="price" style="color:red" price="5.99">Price:5.99</div>
+          <button class="ui-btn">Add to cart</button>
+        </div>
+        <div class="item" data-role="collapsible">
+          <h4 class="title">Book Two</h4>
+          <div class="ISBN">ISBN: 975-4-00-000000-T</div>
+          <div class="description"><b>Description: This is a dummy book.</b></div>
+          <div class="price" style="color:red" price="5.99">Price:5.99</div>
+          <button class="ui-btn">Add to cart</button>
+        </div>
+        <div class="item" data-role="collapsible">
+          <h4 class="title">Book Three</h4>
+          <div class="ISBN">ISBN: 975-4-00-000000-T</div>
+          <div class="description"><b>Description: This is a dummy book.</b></div>
+          <div class="price" style="color:red" price="5.99">Price:5.99</div>
+          <button class="ui-btn">Add to cart</button>
+        </div>
+        <div class="item" data-role="collapsible">
+          <h4 class="title">Book Four</h4>
+          <div class="ISBN">ISBN: 975-4-00-000000-T</div>
+          <div class="description"><b>Description: This is a dummy book.</b></div>
+          <div class="price" style="color:red" price="5.99">Price:5.99</div>
+          <button class="ui-btn">Add to cart</button>
+        </div>
+        <div class="item" data-role="collapsible">
+          <h4 class="title">Book Five</h4>
+          <div class="ISBN">ISBN: 975-4-00-000000-T</div>
+          <div class="description"><b>Description: This is a dummy book.</b></div>
+          <div class="price" style="color:red" price="5.99">Price:5.99</div>
+          <button class="ui-btn">Add to cart</button>
+        </div>
+        <div class="item" data-role="collapsible">
+          <h4 class="title">Book Six</h4>
+          <div class="ISBN">ISBN: 975-4-00-000000-T</div>
+          <div class="description"><b>Description: This is a dummy book.</b></div>
+          <div class="price" style="color:red" price="5.99">Price:5.99</div>
+          <button class="ui-btn">Add to cart</button>
+        </div>
+        <div class="item" data-role="collapsible">
+          <h4 class="title">Book Seven</h4>
+          <div class="ISBN">ISBN: 975-4-00-000000-T</div>
+          <div class="description"><b>Description: This is a dummy book.</b></div>
+          <div class="price" style="color:red" price="5.99">Price:5.99</div>
+          <button class="ui-btn">Add to cart</button>
+        </div>
+        <div class="item" data-role="collapsible">
+          <h4 class="title">Book Eight</h4>
+          <div class="ISBN">ISBN: 975-4-00-000000-T</div>
+          <div class="description"><b>Description: This is a dummy book.</b></div>
+          <div class="price" style="color:red" price="5.99">Price:5.99</div>
+          <button class="ui-btn">Add to cart</button>
+        </div>
+        <div class="item" data-role="collapsible">
+          <h4 class="title">Book Nine</h4>
+          <div class="ISBN">ISBN: 975-4-00-000000-T</div>
+          <div class="description"><b>Description: This is a dummy book.</b></div>
+          <div class="price" style="color:red" price="5.99">Price:5.99</div>
+          <button class="ui-btn">Add to cart</button>
+        </div>
+        <div class="item" data-role="collapsible">
+          <h4 class="title">Book Ten</h4>
+          <div class="ISBN">ISBN: 975-4-00-000000-T</div>
+          <div class="description"><b>Description: This is a dummy book.</b></div>
+          <div class="price" style="color:red" price="5.99">Price:5.99</div>
+          <button class="ui-btn">Add to cart</button>
+        </div>
+      </div>
+	  <div data-role="footer">
+		  <h4>Sto<b>re Footer</h4>
+	  </div>
+	</div>
+	<div id="cart">
+	  <div data-role="main" class="ui-content">
+    	<form id="cartItem">
+
+
+      </form>
+      <div id="CartOperationContainer">
+        
+        <button id="RefreshCart">Update Cart</button>
+        <button id="RemoveAll">Remove all items</button>
+      </div>
+    </div>
+    <div data-role="footer">
+		  <button id="submitOrder" style="color:red;">Submit Order</button>
+	  </div>
+  </div>
+</div>
+</body>
+</html>
